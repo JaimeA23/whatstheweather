@@ -1,16 +1,13 @@
-# prueba
+Instrucciones: 
+El proyecto debe usar las siguientes configuraciones para su correcta construcción
+Flutter versión: 2.2.2
+DART versión: 2.13.3
 
-A new Flutter application.
+Opcional:
+En caso de únicamente tomar lso elementos dentro de librerías y assets se debe configurar versiones
+Configuración de sdk minima de android modificando la siguiente línea en: Android/app/build.gradle
+minSdkVersion 21
+Configuracion de versión minima de ios, modificar la siguiente línea en ios/Flutter/AppFrameworkInfo
+  <string>11.0</string>
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Una vez configurado y para evitar posibles errores se sugiere ejecutar el flutter clean, luego el pub get, para que finalmente se pueda proceder a su construcción
